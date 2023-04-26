@@ -1,0 +1,9 @@
+.sudoku-grid {
+    border-collapse: collapse;
+  }
+  
+  .sudoku-grid td {
+    width: calc(150px / var(--n));
+    height: calc(150px / var(--n));
+    text-align: center;
+  }

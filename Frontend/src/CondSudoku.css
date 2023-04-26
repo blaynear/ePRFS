@@ -1,0 +1,10 @@
+ .sudoku-grid-cond {
+    border-collapse: collapse;
+  }
+  
+  .sudoku-grid-cond td {
+    width: calc(324px / var(--n));
+    height: calc(350px / var(--n));
+    text-align: center;
+  } 
+  
