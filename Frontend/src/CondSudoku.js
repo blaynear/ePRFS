@@ -75,35 +75,7 @@ const CondSudoku = ({ n, values }) => {
    
   ); 
 
-  // return (
-  //   <div>
-  //       <div style={{ display: 'flex', flexDirection: 'row',  margin: '0 auto' }}>
-  //       <div style={{margin: '0 px'}}>
-  //           <GetRowSum n={3} values = {data} />
-  //       </div>
-  //       <div style={{  maxHeight: '200px', maxHeight: '200px' }}>
-  //           <table className="sudoku-grid-cond" style={{ '--n': n }}>
-  //           <tbody>
-  //               {Array.from({ length: subSize }, (_, row) => (
-  //               <tr key={row}>
-  //                   {Array.from({ length: subSize }, (_, col) => (
-  //                   <td key={col} style={getCellStyle(row, col)}>
-  //                       {getSubGridSum(row, col)}
-  //                   </td>
-  //                   ))}
-  //               </tr>
-  //               ))}
-  //           </tbody>
-  //           </table>
-  //       </div> 
-  //       </div>
-        
-        
-  //       <GetColumnSum n={3} values = {data} />
-  //   </div>
-   
-  // ); 
-
+  
 };
 
 export default CondSudoku;
